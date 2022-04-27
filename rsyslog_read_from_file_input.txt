@@ -1,0 +1,14 @@
+$ModLoad imfile
+
+# File 1
+$InputFileName /var/log/inputfile1.log
+$InputFileTag file-1:
+$InputFileStateFile stat-file1
+$InputRunFileMonitor
+
+# File 2
+$InputFileName /var/log/inputfile2.log
+$InputFileTag file-2:
+$InputFileStateFile stat-file2
+$InputRunFileMonitor
+
