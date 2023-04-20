@@ -1,0 +1,5 @@
+#DUMP:
+getfacl -R . >permissions.facl
+
+#RESTORE:
+setfacl --restore=permissions.facl
